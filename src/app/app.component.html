@@ -1,4 +1,11 @@
 <hello name="{{ name }}"></hello>
 <p>
   Start editing to see some magic happen :)
+  <br><a routerLink="/login">Login</a><br>
+  <a routerLink="/detail/3">Detail</a>
+  <br><a routerLink="/detail">test Detail</a><br>
 </p>
+<button (click)="LOGIN()">Login</button>
+<button (click)="DETAIL()">Detail</button>
+<router-outlet>
+</router-outlet>
